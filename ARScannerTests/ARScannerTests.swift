@@ -2,7 +2,7 @@
 //  ARScannerTests.swift
 //  ARScannerTests
 //
-//  Created by Prasenjit Dasgupta on 15/06/21.
+//  Created by Amit Yadav on 15/06/21.
 //
 
 import XCTest

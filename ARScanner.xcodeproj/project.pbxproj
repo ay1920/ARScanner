@@ -7,66 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15ACAA1B2678A02300274791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACAA1A2678A02300274791 /* AppDelegate.swift */; };
-		15ACAA1D2678A02300274791 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 15ACAA1C2678A02300274791 /* art.scnassets */; };
-		15ACAA1F2678A02300274791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACAA1E2678A02300274791 /* ViewController.swift */; };
-		15ACAA222678A02300274791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15ACAA202678A02300274791 /* Main.storyboard */; };
-		15ACAA242678A02A00274791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15ACAA232678A02A00274791 /* Assets.xcassets */; };
-		15ACAA272678A02A00274791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15ACAA252678A02A00274791 /* LaunchScreen.storyboard */; };
-		15ACAA322678A02A00274791 /* ARScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACAA312678A02A00274791 /* ARScannerTests.swift */; };
-		15ACAA3D2678A02A00274791 /* ARScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ACAA3C2678A02A00274791 /* ARScannerUITests.swift */; };
+		F9828F292678BB2F00FB11FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9828F282678BB2F00FB11FC /* AppDelegate.swift */; };
+		F9828F2B2678BB2F00FB11FC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F9828F2A2678BB2F00FB11FC /* art.scnassets */; };
+		F9828F2D2678BB2F00FB11FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9828F2C2678BB2F00FB11FC /* ViewController.swift */; };
+		F9828F302678BB2F00FB11FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9828F2E2678BB2F00FB11FC /* Main.storyboard */; };
+		F9828F322678BB3100FB11FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9828F312678BB3100FB11FC /* Assets.xcassets */; };
+		F9828F352678BB3100FB11FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9828F332678BB3100FB11FC /* LaunchScreen.storyboard */; };
+		F9828F402678BB3200FB11FC /* ARScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9828F3F2678BB3200FB11FC /* ARScannerTests.swift */; };
+		F9828F4B2678BB3200FB11FC /* ARScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9828F4A2678BB3200FB11FC /* ARScannerUITests.swift */; };
+		F9828F83267A254500FB11FC /* TestScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = F9828F82267A254500FB11FC /* TestScene.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15ACAA2E2678A02A00274791 /* PBXContainerItemProxy */ = {
+		F9828F3C2678BB3200FB11FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 15ACAA0F2678A02300274791 /* Project object */;
+			containerPortal = F9828F1D2678BB2F00FB11FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15ACAA162678A02300274791;
+			remoteGlobalIDString = F9828F242678BB2F00FB11FC;
 			remoteInfo = ARScanner;
 		};
-		15ACAA392678A02A00274791 /* PBXContainerItemProxy */ = {
+		F9828F472678BB3200FB11FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 15ACAA0F2678A02300274791 /* Project object */;
+			containerPortal = F9828F1D2678BB2F00FB11FC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15ACAA162678A02300274791;
+			remoteGlobalIDString = F9828F242678BB2F00FB11FC;
 			remoteInfo = ARScanner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15ACAA172678A02300274791 /* ARScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		15ACAA1A2678A02300274791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15ACAA1C2678A02300274791 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		15ACAA1E2678A02300274791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15ACAA212678A02300274791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		15ACAA232678A02A00274791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15ACAA262678A02A00274791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		15ACAA282678A02A00274791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15ACAA2D2678A02A00274791 /* ARScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15ACAA312678A02A00274791 /* ARScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScannerTests.swift; sourceTree = "<group>"; };
-		15ACAA332678A02A00274791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15ACAA382678A02A00274791 /* ARScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15ACAA3C2678A02A00274791 /* ARScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScannerUITests.swift; sourceTree = "<group>"; };
-		15ACAA3E2678A02A00274791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9828F252678BB2F00FB11FC /* ARScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9828F282678BB2F00FB11FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9828F2A2678BB2F00FB11FC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F9828F2C2678BB2F00FB11FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9828F2F2678BB2F00FB11FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9828F312678BB3100FB11FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9828F342678BB3100FB11FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9828F362678BB3100FB11FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9828F3B2678BB3200FB11FC /* ARScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9828F3F2678BB3200FB11FC /* ARScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScannerTests.swift; sourceTree = "<group>"; };
+		F9828F412678BB3200FB11FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9828F462678BB3200FB11FC /* ARScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9828F4A2678BB3200FB11FC /* ARScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScannerUITests.swift; sourceTree = "<group>"; };
+		F9828F4C2678BB3200FB11FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9828F82267A254500FB11FC /* TestScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TestScene.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15ACAA142678A02300274791 /* Frameworks */ = {
+		F9828F222678BB2F00FB11FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15ACAA2A2678A02A00274791 /* Frameworks */ = {
+		F9828F382678BB3200FB11FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15ACAA352678A02A00274791 /* Frameworks */ = {
+		F9828F432678BB3200FB11FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15ACAA0E2678A02300274791 = {
+		F9828F1C2678BB2F00FB11FC = {
 			isa = PBXGroup;
 			children = (
-				15ACAA192678A02300274791 /* ARScanner */,
-				15ACAA302678A02A00274791 /* ARScannerTests */,
-				15ACAA3B2678A02A00274791 /* ARScannerUITests */,
-				15ACAA182678A02300274791 /* Products */,
+				F9828F82267A254500FB11FC /* TestScene.scn */,
+				F9828F272678BB2F00FB11FC /* ARScanner */,
+				F9828F3E2678BB3200FB11FC /* ARScannerTests */,
+				F9828F492678BB3200FB11FC /* ARScannerUITests */,
+				F9828F262678BB2F00FB11FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		15ACAA182678A02300274791 /* Products */ = {
+		F9828F262678BB2F00FB11FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15ACAA172678A02300274791 /* ARScanner.app */,
-				15ACAA2D2678A02A00274791 /* ARScannerTests.xctest */,
-				15ACAA382678A02A00274791 /* ARScannerUITests.xctest */,
+				F9828F252678BB2F00FB11FC /* ARScanner.app */,
+				F9828F3B2678BB3200FB11FC /* ARScannerTests.xctest */,
+				F9828F462678BB3200FB11FC /* ARScannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15ACAA192678A02300274791 /* ARScanner */ = {
+		F9828F272678BB2F00FB11FC /* ARScanner */ = {
 			isa = PBXGroup;
 			children = (
-				15ACAA1A2678A02300274791 /* AppDelegate.swift */,
-				15ACAA1C2678A02300274791 /* art.scnassets */,
-				15ACAA1E2678A02300274791 /* ViewController.swift */,
-				15ACAA202678A02300274791 /* Main.storyboard */,
-				15ACAA232678A02A00274791 /* Assets.xcassets */,
-				15ACAA252678A02A00274791 /* LaunchScreen.storyboard */,
-				15ACAA282678A02A00274791 /* Info.plist */,
+				F9828F282678BB2F00FB11FC /* AppDelegate.swift */,
+				F9828F2A2678BB2F00FB11FC /* art.scnassets */,
+				F9828F2C2678BB2F00FB11FC /* ViewController.swift */,
+				F9828F2E2678BB2F00FB11FC /* Main.storyboard */,
+				F9828F312678BB3100FB11FC /* Assets.xcassets */,
+				F9828F332678BB3100FB11FC /* LaunchScreen.storyboard */,
+				F9828F362678BB3100FB11FC /* Info.plist */,
 			);
 			path = ARScanner;
 			sourceTree = "<group>";
 		};
-		15ACAA302678A02A00274791 /* ARScannerTests */ = {
+		F9828F3E2678BB3200FB11FC /* ARScannerTests */ = {
 			isa = PBXGroup;
 			children = (
-				15ACAA312678A02A00274791 /* ARScannerTests.swift */,
-				15ACAA332678A02A00274791 /* Info.plist */,
+				F9828F3F2678BB3200FB11FC /* ARScannerTests.swift */,
+				F9828F412678BB3200FB11FC /* Info.plist */,
 			);
 			path = ARScannerTests;
 			sourceTree = "<group>";
 		};
-		15ACAA3B2678A02A00274791 /* ARScannerUITests */ = {
+		F9828F492678BB3200FB11FC /* ARScannerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				15ACAA3C2678A02A00274791 /* ARScannerUITests.swift */,
-				15ACAA3E2678A02A00274791 /* Info.plist */,
+				F9828F4A2678BB3200FB11FC /* ARScannerUITests.swift */,
+				F9828F4C2678BB3200FB11FC /* Info.plist */,
 			);
 			path = ARScannerUITests;
 			sourceTree = "<group>";
@@ -131,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15ACAA162678A02300274791 /* ARScanner */ = {
+		F9828F242678BB2F00FB11FC /* ARScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15ACAA412678A02A00274791 /* Build configuration list for PBXNativeTarget "ARScanner" */;
+			buildConfigurationList = F9828F4F2678BB3200FB11FC /* Build configuration list for PBXNativeTarget "ARScanner" */;
 			buildPhases = (
-				15ACAA132678A02300274791 /* Sources */,
-				15ACAA142678A02300274791 /* Frameworks */,
-				15ACAA152678A02300274791 /* Resources */,
+				F9828F212678BB2F00FB11FC /* Sources */,
+				F9828F222678BB2F00FB11FC /* Frameworks */,
+				F9828F232678BB2F00FB11FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,68 +148,68 @@
 			);
 			name = ARScanner;
 			productName = ARScanner;
-			productReference = 15ACAA172678A02300274791 /* ARScanner.app */;
+			productReference = F9828F252678BB2F00FB11FC /* ARScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15ACAA2C2678A02A00274791 /* ARScannerTests */ = {
+		F9828F3A2678BB3200FB11FC /* ARScannerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15ACAA442678A02A00274791 /* Build configuration list for PBXNativeTarget "ARScannerTests" */;
+			buildConfigurationList = F9828F522678BB3200FB11FC /* Build configuration list for PBXNativeTarget "ARScannerTests" */;
 			buildPhases = (
-				15ACAA292678A02A00274791 /* Sources */,
-				15ACAA2A2678A02A00274791 /* Frameworks */,
-				15ACAA2B2678A02A00274791 /* Resources */,
+				F9828F372678BB3200FB11FC /* Sources */,
+				F9828F382678BB3200FB11FC /* Frameworks */,
+				F9828F392678BB3200FB11FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15ACAA2F2678A02A00274791 /* PBXTargetDependency */,
+				F9828F3D2678BB3200FB11FC /* PBXTargetDependency */,
 			);
 			name = ARScannerTests;
 			productName = ARScannerTests;
-			productReference = 15ACAA2D2678A02A00274791 /* ARScannerTests.xctest */;
+			productReference = F9828F3B2678BB3200FB11FC /* ARScannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		15ACAA372678A02A00274791 /* ARScannerUITests */ = {
+		F9828F452678BB3200FB11FC /* ARScannerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15ACAA472678A02A00274791 /* Build configuration list for PBXNativeTarget "ARScannerUITests" */;
+			buildConfigurationList = F9828F552678BB3200FB11FC /* Build configuration list for PBXNativeTarget "ARScannerUITests" */;
 			buildPhases = (
-				15ACAA342678A02A00274791 /* Sources */,
-				15ACAA352678A02A00274791 /* Frameworks */,
-				15ACAA362678A02A00274791 /* Resources */,
+				F9828F422678BB3200FB11FC /* Sources */,
+				F9828F432678BB3200FB11FC /* Frameworks */,
+				F9828F442678BB3200FB11FC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15ACAA3A2678A02A00274791 /* PBXTargetDependency */,
+				F9828F482678BB3200FB11FC /* PBXTargetDependency */,
 			);
 			name = ARScannerUITests;
 			productName = ARScannerUITests;
-			productReference = 15ACAA382678A02A00274791 /* ARScannerUITests.xctest */;
+			productReference = F9828F462678BB3200FB11FC /* ARScannerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		15ACAA0F2678A02300274791 /* Project object */ = {
+		F9828F1D2678BB2F00FB11FC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					15ACAA162678A02300274791 = {
+					F9828F242678BB2F00FB11FC = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					15ACAA2C2678A02A00274791 = {
+					F9828F3A2678BB3200FB11FC = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 15ACAA162678A02300274791;
+						TestTargetID = F9828F242678BB2F00FB11FC;
 					};
-					15ACAA372678A02A00274791 = {
+					F9828F452678BB3200FB11FC = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 15ACAA162678A02300274791;
+						TestTargetID = F9828F242678BB2F00FB11FC;
 					};
 				};
 			};
-			buildConfigurationList = 15ACAA122678A02300274791 /* Build configuration list for PBXProject "ARScanner" */;
+			buildConfigurationList = F9828F202678BB2F00FB11FC /* Build configuration list for PBXProject "ARScanner" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,38 +217,39 @@
 				en,
 				Base,
 			);
-			mainGroup = 15ACAA0E2678A02300274791;
-			productRefGroup = 15ACAA182678A02300274791 /* Products */;
+			mainGroup = F9828F1C2678BB2F00FB11FC;
+			productRefGroup = F9828F262678BB2F00FB11FC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15ACAA162678A02300274791 /* ARScanner */,
-				15ACAA2C2678A02A00274791 /* ARScannerTests */,
-				15ACAA372678A02A00274791 /* ARScannerUITests */,
+				F9828F242678BB2F00FB11FC /* ARScanner */,
+				F9828F3A2678BB3200FB11FC /* ARScannerTests */,
+				F9828F452678BB3200FB11FC /* ARScannerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15ACAA152678A02300274791 /* Resources */ = {
+		F9828F232678BB2F00FB11FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ACAA1D2678A02300274791 /* art.scnassets in Resources */,
-				15ACAA272678A02A00274791 /* LaunchScreen.storyboard in Resources */,
-				15ACAA242678A02A00274791 /* Assets.xcassets in Resources */,
-				15ACAA222678A02300274791 /* Main.storyboard in Resources */,
+				F9828F83267A254500FB11FC /* TestScene.scn in Resources */,
+				F9828F2B2678BB2F00FB11FC /* art.scnassets in Resources */,
+				F9828F352678BB3100FB11FC /* LaunchScreen.storyboard in Resources */,
+				F9828F322678BB3100FB11FC /* Assets.xcassets in Resources */,
+				F9828F302678BB2F00FB11FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15ACAA2B2678A02A00274791 /* Resources */ = {
+		F9828F392678BB3200FB11FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15ACAA362678A02A00274791 /* Resources */ = {
+		F9828F442678BB3200FB11FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,59 +259,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15ACAA132678A02300274791 /* Sources */ = {
+		F9828F212678BB2F00FB11FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ACAA1F2678A02300274791 /* ViewController.swift in Sources */,
-				15ACAA1B2678A02300274791 /* AppDelegate.swift in Sources */,
+				F9828F2D2678BB2F00FB11FC /* ViewController.swift in Sources */,
+				F9828F292678BB2F00FB11FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15ACAA292678A02A00274791 /* Sources */ = {
+		F9828F372678BB3200FB11FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ACAA322678A02A00274791 /* ARScannerTests.swift in Sources */,
+				F9828F402678BB3200FB11FC /* ARScannerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15ACAA342678A02A00274791 /* Sources */ = {
+		F9828F422678BB3200FB11FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15ACAA3D2678A02A00274791 /* ARScannerUITests.swift in Sources */,
+				F9828F4B2678BB3200FB11FC /* ARScannerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15ACAA2F2678A02A00274791 /* PBXTargetDependency */ = {
+		F9828F3D2678BB3200FB11FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15ACAA162678A02300274791 /* ARScanner */;
-			targetProxy = 15ACAA2E2678A02A00274791 /* PBXContainerItemProxy */;
+			target = F9828F242678BB2F00FB11FC /* ARScanner */;
+			targetProxy = F9828F3C2678BB3200FB11FC /* PBXContainerItemProxy */;
 		};
-		15ACAA3A2678A02A00274791 /* PBXTargetDependency */ = {
+		F9828F482678BB3200FB11FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15ACAA162678A02300274791 /* ARScanner */;
-			targetProxy = 15ACAA392678A02A00274791 /* PBXContainerItemProxy */;
+			target = F9828F242678BB2F00FB11FC /* ARScanner */;
+			targetProxy = F9828F472678BB3200FB11FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15ACAA202678A02300274791 /* Main.storyboard */ = {
+		F9828F2E2678BB2F00FB11FC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15ACAA212678A02300274791 /* Base */,
+				F9828F2F2678BB2F00FB11FC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		15ACAA252678A02A00274791 /* LaunchScreen.storyboard */ = {
+		F9828F332678BB3100FB11FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				15ACAA262678A02A00274791 /* Base */,
+				F9828F342678BB3100FB11FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		15ACAA3F2678A02A00274791 /* Debug */ = {
+		F9828F4D2678BB3200FB11FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		15ACAA402678A02A00274791 /* Release */ = {
+		F9828F4E2678BB3200FB11FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,48 +435,51 @@
 			};
 			name = Release;
 		};
-		15ACAA422678A02A00274791 /* Debug */ = {
+		F9828F502678BB3200FB11FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZESPWR382;
 				INFOPLIST_FILE = ARScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amity.arscanner.ARScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.ARScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		15ACAA432678A02A00274791 /* Release */ = {
+		F9828F512678BB3200FB11FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZESPWR382;
 				INFOPLIST_FILE = ARScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amity.arscanner.ARScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.ARScanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		15ACAA452678A02A00274791 /* Debug */ = {
+		F9828F532678BB3200FB11FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZESPWR382;
 				INFOPLIST_FILE = ARScannerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,7 +487,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amity.arscanner.ARScannerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.ARScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,12 +495,13 @@
 			};
 			name = Debug;
 		};
-		15ACAA462678A02A00274791 /* Release */ = {
+		F9828F542678BB3200FB11FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZESPWR382;
 				INFOPLIST_FILE = ARScannerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,7 +509,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amity.arscanner.ARScannerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.ARScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -509,18 +517,19 @@
 			};
 			name = Release;
 		};
-		15ACAA482678A02A00274791 /* Debug */ = {
+		F9828F562678BB3200FB11FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZESPWR382;
 				INFOPLIST_FILE = ARScannerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amity.arscanner.ARScannerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.ARScannerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -528,18 +537,19 @@
 			};
 			name = Debug;
 		};
-		15ACAA492678A02A00274791 /* Release */ = {
+		F9828F572678BB3200FB11FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZESPWR382;
 				INFOPLIST_FILE = ARScannerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amity.arscanner.ARScannerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.ARScannerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -550,43 +560,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15ACAA122678A02300274791 /* Build configuration list for PBXProject "ARScanner" */ = {
+		F9828F202678BB2F00FB11FC /* Build configuration list for PBXProject "ARScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15ACAA3F2678A02A00274791 /* Debug */,
-				15ACAA402678A02A00274791 /* Release */,
+				F9828F4D2678BB3200FB11FC /* Debug */,
+				F9828F4E2678BB3200FB11FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15ACAA412678A02A00274791 /* Build configuration list for PBXNativeTarget "ARScanner" */ = {
+		F9828F4F2678BB3200FB11FC /* Build configuration list for PBXNativeTarget "ARScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15ACAA422678A02A00274791 /* Debug */,
-				15ACAA432678A02A00274791 /* Release */,
+				F9828F502678BB3200FB11FC /* Debug */,
+				F9828F512678BB3200FB11FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15ACAA442678A02A00274791 /* Build configuration list for PBXNativeTarget "ARScannerTests" */ = {
+		F9828F522678BB3200FB11FC /* Build configuration list for PBXNativeTarget "ARScannerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15ACAA452678A02A00274791 /* Debug */,
-				15ACAA462678A02A00274791 /* Release */,
+				F9828F532678BB3200FB11FC /* Debug */,
+				F9828F542678BB3200FB11FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15ACAA472678A02A00274791 /* Build configuration list for PBXNativeTarget "ARScannerUITests" */ = {
+		F9828F552678BB3200FB11FC /* Build configuration list for PBXNativeTarget "ARScannerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15ACAA482678A02A00274791 /* Debug */,
-				15ACAA492678A02A00274791 /* Release */,
+				F9828F562678BB3200FB11FC /* Debug */,
+				F9828F572678BB3200FB11FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 15ACAA0F2678A02300274791 /* Project object */;
+	rootObject = F9828F1D2678BB2F00FB11FC /* Project object */;
 }
